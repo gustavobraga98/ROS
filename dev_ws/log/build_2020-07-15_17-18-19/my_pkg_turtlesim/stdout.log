@@ -1,0 +1,35 @@
+running egg_info
+creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info
+writing /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/PKG-INFO
+writing dependency_links to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/dependency_links.txt
+writing entry points to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/entry_points.txt
+writing requirements to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/requires.txt
+writing top-level names to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/top_level.txt
+writing manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'
+reading manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'
+writing manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/build
+creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib
+creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim
+copying my_pkg_turtlesim/velocity_publisher.py -> /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim
+copying my_pkg_turtlesim/__init__.py -> /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim
+running install
+running install_lib
+creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim
+copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim/velocity_publisher.py -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim
+copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim/__init__.py -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim
+byte-compiling /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim/velocity_publisher.py to velocity_publisher.cpython-38.pyc
+byte-compiling /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index
+creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index/resource_index
+creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index/resource_index/packages
+copying resource/my_pkg_turtlesim -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index/resource_index/packages
+copying package.xml -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/my_pkg_turtlesim
+running install_egg_info
+Copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim-0.0.0-py3.8.egg-info
+running install_scripts
+Installing velocity_publisher script to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/my_pkg_turtlesim
+writing list of installed files to '/home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log'

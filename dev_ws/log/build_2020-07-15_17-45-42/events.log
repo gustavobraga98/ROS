@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000607] (my_pkg_turtlesim) JobQueued: {'identifier': 'my_pkg_turtlesim', 'dependencies': OrderedDict()}
+[0.001312] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001578] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.003123] (my_pkg_turtlesim) JobStarted: {'identifier': 'my_pkg_turtlesim'}
+[0.099247] (-) TimerEvent: {}
+[0.199922] (-) TimerEvent: {}
+[0.300649] (-) TimerEvent: {}
+[0.402000] (-) TimerEvent: {}
+[0.404634] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.502069] (-) TimerEvent: {}
+[0.590949] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.602253] (-) TimerEvent: {}
+[0.702975] (-) TimerEvent: {}
+[0.803725] (-) TimerEvent: {}
+[0.904529] (-) TimerEvent: {}
+[1.005251] (-) TimerEvent: {}
+[1.105929] (-) TimerEvent: {}
+[1.206485] (-) TimerEvent: {}
+[1.307074] (-) TimerEvent: {}
+[1.407705] (-) TimerEvent: {}
+[1.508339] (-) TimerEvent: {}
+[1.608967] (-) TimerEvent: {}
+[1.709456] (-) TimerEvent: {}
+[1.810122] (-) TimerEvent: {}
+[1.910715] (-) TimerEvent: {}
+[2.011336] (-) TimerEvent: {}
+[2.111943] (-) TimerEvent: {}
+[2.212628] (-) TimerEvent: {}
+[2.313277] (-) TimerEvent: {}
+[2.414073] (-) TimerEvent: {}
+[2.515180] (-) TimerEvent: {}
+[2.615795] (-) TimerEvent: {}
+[2.716426] (-) TimerEvent: {}
+[2.817072] (-) TimerEvent: {}
+[2.917686] (-) TimerEvent: {}
+[3.018395] (-) TimerEvent: {}
+[3.119003] (-) TimerEvent: {}
+[3.219642] (-) TimerEvent: {}
+[3.320373] (-) TimerEvent: {}
+[3.421060] (-) TimerEvent: {}
+[3.521860] (-) TimerEvent: {}
+[3.622477] (-) TimerEvent: {}
+[3.723136] (-) TimerEvent: {}
+[3.823773] (-) TimerEvent: {}
+[3.924431] (-) TimerEvent: {}
+[4.025059] (-) TimerEvent: {}
+[4.125736] (-) TimerEvent: {}
+[4.226508] (-) TimerEvent: {}
+[4.327136] (-) TimerEvent: {}
+[4.427712] (-) TimerEvent: {}
+[4.528384] (-) TimerEvent: {}
+[4.629092] (-) TimerEvent: {}
+[4.729697] (-) TimerEvent: {}
+[4.830365] (-) TimerEvent: {}
+[4.931026] (-) TimerEvent: {}
+[5.031675] (-) TimerEvent: {}
+[5.132407] (-) TimerEvent: {}
+[5.232981] (-) TimerEvent: {}
+[5.333618] (-) TimerEvent: {}
+[5.434242] (-) TimerEvent: {}
+[5.534873] (-) TimerEvent: {}
+[5.635429] (-) TimerEvent: {}
+[5.736110] (-) TimerEvent: {}
+[5.836741] (-) TimerEvent: {}
+[5.937362] (-) TimerEvent: {}
+[6.037984] (-) TimerEvent: {}
+[6.138694] (-) TimerEvent: {}
+[6.239393] (-) TimerEvent: {}
+[6.340124] (-) TimerEvent: {}
+[6.440857] (-) TimerEvent: {}
+[6.541588] (-) TimerEvent: {}
+[6.642337] (-) TimerEvent: {}
+[6.743068] (-) TimerEvent: {}
+[6.843707] (-) TimerEvent: {}
+[6.944322] (-) TimerEvent: {}
+[7.044943] (-) TimerEvent: {}
+[7.145677] (-) TimerEvent: {}
+[7.246288] (-) TimerEvent: {}
+[7.347007] (-) TimerEvent: {}
+[7.447662] (-) TimerEvent: {}
+[7.548352] (-) TimerEvent: {}
+[7.649013] (-) TimerEvent: {}
+[7.749633] (-) TimerEvent: {}
+[7.850289] (-) TimerEvent: {}
+[7.950912] (-) TimerEvent: {}
+[8.051664] (-) TimerEvent: {}
+[8.152381] (-) TimerEvent: {}
+[8.253010] (-) TimerEvent: {}
+[8.353613] (-) TimerEvent: {}
+[8.454226] (-) TimerEvent: {}
+[8.554819] (-) TimerEvent: {}
+[8.655411] (-) TimerEvent: {}
+[8.756027] (-) TimerEvent: {}
+[8.856711] (-) TimerEvent: {}
+[8.957321] (-) TimerEvent: {}
+[9.057924] (-) TimerEvent: {}
+[9.158572] (-) TimerEvent: {}
+[9.259238] (-) TimerEvent: {}
+[9.359875] (-) TimerEvent: {}
+[9.460474] (-) TimerEvent: {}
+[9.561196] (-) TimerEvent: {}
+[9.661878] (-) TimerEvent: {}
+[9.762573] (-) TimerEvent: {}
+[9.868050] (-) TimerEvent: {}
+[9.968774] (-) TimerEvent: {}
+[10.069342] (-) TimerEvent: {}
+[10.169937] (-) TimerEvent: {}
+[10.270548] (-) TimerEvent: {}
+[10.371209] (-) TimerEvent: {}
+[10.472166] (-) TimerEvent: {}
+[10.572737] (-) TimerEvent: {}
+[10.673271] (-) TimerEvent: {}
+[10.773813] (-) TimerEvent: {}
+[10.874463] (-) TimerEvent: {}
+[10.895423] (my_pkg_turtlesim) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/my_pkg_turtlesim', 'build', '--build-base', '/home/gustavo/dev_ws/build/my_pkg_turtlesim/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/my_pkg_turtlesim', '--record', '/home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/my_pkg_turtlesim', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '2015', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.47.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/37/usr/share/code/code', 'MANAGERPID': '1828', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '59893', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:38732', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089', 'INVOCATION_ID': 'dfd13fb600ba4acf92736c8e2035e418', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000/snap.code', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/snap/code/37/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/my_pkg_turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[10.983204] (-) TimerEvent: {}
+[11.038682] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/py_pubsub', 'build', '--build-base', '/home/gustavo/dev_ws/build/py_pubsub/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/py_pubsub', '--record', '/home/gustavo/dev_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '2015', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.47.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/37/usr/share/code/code', 'MANAGERPID': '1828', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '59893', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:38732', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089', 'INVOCATION_ID': 'dfd13fb600ba4acf92736c8e2035e418', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000/snap.code', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/snap/code/37/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/py_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[11.083916] (-) TimerEvent: {}
+[11.136980] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/py_srvcli', 'build', '--build-base', '/home/gustavo/dev_ws/build/py_srvcli/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/py_srvcli', '--record', '/home/gustavo/dev_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '2015', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.47.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/37/usr/share/code/code', 'MANAGERPID': '1828', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '59893', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:38732', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089', 'INVOCATION_ID': 'dfd13fb600ba4acf92736c8e2035e418', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000/snap.code', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/snap/code/37/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/py_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[11.184061] (-) TimerEvent: {}
+[11.285565] (-) TimerEvent: {}
+[11.386790] (-) TimerEvent: {}
+[11.487503] (-) TimerEvent: {}
+[11.588083] (-) TimerEvent: {}
+[11.689391] (-) TimerEvent: {}
+[11.790641] (-) TimerEvent: {}
+[11.894010] (-) TimerEvent: {}
+[11.994576] (-) TimerEvent: {}
+[12.095180] (-) TimerEvent: {}
+[12.195795] (-) TimerEvent: {}
+[12.295085] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[12.298226] (-) TimerEvent: {}
+[12.298582] (my_pkg_turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[12.298984] (my_pkg_turtlesim) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/PKG-INFO\n'}
+[12.299253] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[12.299572] (py_pubsub) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[12.299774] (py_srvcli) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[12.319393] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[12.320745] (py_srvcli) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[12.321061] (py_srvcli) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[12.321283] (py_srvcli) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[12.324297] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[12.326414] (py_pubsub) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[12.326822] (py_pubsub) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[12.344009] (py_pubsub) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[12.345322] (my_pkg_turtlesim) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/dependency_links.txt\n'}
+[12.346977] (my_pkg_turtlesim) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/entry_points.txt\n'}
+[12.347417] (my_pkg_turtlesim) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/requires.txt\n'}
+[12.372444] (my_pkg_turtlesim) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/top_level.txt\n'}
+[12.398443] (-) TimerEvent: {}
+[12.499056] (-) TimerEvent: {}
+[12.599725] (-) TimerEvent: {}
+[12.700374] (-) TimerEvent: {}
+[12.801938] (-) TimerEvent: {}
+[12.841866] (my_pkg_turtlesim) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'\n"}
+[12.854774] (my_pkg_turtlesim) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'\n"}
+[12.855771] (my_pkg_turtlesim) StdoutLine: {'line': b'running build\n'}
+[12.856113] (my_pkg_turtlesim) StdoutLine: {'line': b'running build_py\n'}
+[12.865197] (my_pkg_turtlesim) StdoutLine: {'line': b'copying my_pkg_turtlesim/velocity_publisher.py -> /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim\n'}
+[12.865848] (py_pubsub) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[12.871917] (py_srvcli) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[12.872816] (my_pkg_turtlesim) StdoutLine: {'line': b'running install\n'}
+[12.878177] (py_pubsub) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[12.878746] (py_srvcli) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[12.879211] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[12.879538] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[12.879982] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[12.880337] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[12.888326] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_lib\n'}
+[12.902131] (-) TimerEvent: {}
+[12.943923] (my_pkg_turtlesim) StdoutLine: {'line': b'copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim/velocity_publisher.py -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim\n'}
+[12.944464] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[12.944784] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[12.945071] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[12.945382] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[13.002296] (-) TimerEvent: {}
+[13.005485] (my_pkg_turtlesim) StdoutLine: {'line': b'byte-compiling /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim/velocity_publisher.py to velocity_publisher.cpython-38.pyc\n'}
+[13.006106] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[13.016268] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_data\n'}
+[13.052262] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.064212] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.064714] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[13.102482] (-) TimerEvent: {}
+[13.112975] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.145961] (py_srvcli) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[13.146698] (py_pubsub) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[13.147126] (my_pkg_turtlesim) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[13.147593] (py_srvcli) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info to /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[13.147918] (my_pkg_turtlesim) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim-0.0.0-py3.8.egg-info\n'}
+[13.183760] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_scripts\n'}
+[13.200899] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[13.202598] (-) TimerEvent: {}
+[13.214913] (py_pubsub) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info to /home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[13.236006] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[13.302741] (-) TimerEvent: {}
+[13.403396] (-) TimerEvent: {}
+[13.504032] (-) TimerEvent: {}
+[13.507696] (my_pkg_turtlesim) StdoutLine: {'line': b'Installing velocity_publisher script to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/my_pkg_turtlesim\n'}
+[13.508200] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[13.511711] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[13.515709] (my_pkg_turtlesim) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log'\n"}
+[13.532467] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[13.533174] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/py_srvcli/install.log'\n"}
+[13.533549] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[13.533902] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/py_pubsub/install.log'\n"}
+[13.604200] (-) TimerEvent: {}
+[13.628092] (py_srvcli) CommandEnded: {'returncode': 0}
+[13.704395] (-) TimerEvent: {}
+[13.805271] (-) TimerEvent: {}
+[13.865293] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[13.872308] (my_pkg_turtlesim) CommandEnded: {'returncode': 0}
+[13.905601] (-) TimerEvent: {}
+[13.911187] (my_pkg_turtlesim) JobEnded: {'identifier': 'my_pkg_turtlesim', 'rc': 0}
+[13.916917] (py_pubsub) CommandEnded: {'returncode': 0}
+[13.947235] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[13.950175] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/gustavo/dev_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/gustavo/dev_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/gustavo/dev_ws/install/action_tutorials
+Invoked command in '/home/gustavo/dev_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/gustavo/dev_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/gustavo/dev_ws/install/action_tutorials
+Invoking command in '/home/gustavo/dev_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gustavo/dev_ws/build/action_tutorials -- -j4 -l4
+Invoked command in '/home/gustavo/dev_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gustavo/dev_ws/build/action_tutorials -- -j4 -l4
+Invoking command in '/home/gustavo/dev_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gustavo/dev_ws/build/action_tutorials
+Invoked command in '/home/gustavo/dev_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gustavo/dev_ws/build/action_tutorials

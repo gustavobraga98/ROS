@@ -1,0 +1,22 @@
+[1.376s] Invoking command in '/home/gustavo/dev_ws/src/py_pubsub': PYTHONPATH=/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/py_pubsub build --build-base /home/gustavo/dev_ws/build/py_pubsub/build install --prefix /home/gustavo/dev_ws/install/py_pubsub --record /home/gustavo/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.869s] running egg_info
+[1.872s] writing /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.873s] writing dependency_links to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.873s] writing entry points to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.873s] writing requirements to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.874s] writing top-level names to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.950s] reading manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.953s] writing manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.954s] running build
+[1.954s] running build_py
+[1.955s] running install
+[1.957s] running install_lib
+[1.961s] running install_data
+[1.963s] running install_egg_info
+[1.969s] removing '/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.970s] Copying /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info to /home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[1.972s] running install_scripts
+[2.007s] Installing listener script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub
+[2.008s] Installing talker script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub
+[2.009s] writing list of installed files to '/home/gustavo/dev_ws/build/py_pubsub/install.log'
+[2.078s] Invoked command in '/home/gustavo/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/py_pubsub build --build-base /home/gustavo/dev_ws/build/py_pubsub/build install --prefix /home/gustavo/dev_ws/install/py_pubsub --record /home/gustavo/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

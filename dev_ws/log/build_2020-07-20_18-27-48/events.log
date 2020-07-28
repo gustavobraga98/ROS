@@ -1,0 +1,609 @@
+[0.000000] (-) TimerEvent: {}
+[0.000531] (action_tutorials) JobQueued: {'identifier': 'action_tutorials', 'dependencies': OrderedDict()}
+[0.000961] (my_pkg_turtlesim) JobQueued: {'identifier': 'my_pkg_turtlesim', 'dependencies': OrderedDict()}
+[0.001225] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002965] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.003289] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.003390] (action_tutorials) JobStarted: {'identifier': 'action_tutorials'}
+[0.099251] (-) TimerEvent: {}
+[0.196903] (my_pkg_turtlesim) JobStarted: {'identifier': 'my_pkg_turtlesim'}
+[0.200201] (-) TimerEvent: {}
+[0.300796] (-) TimerEvent: {}
+[0.321885] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.364825] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.400980] (-) TimerEvent: {}
+[0.416921] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'cmake'}
+[0.418280] (action_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/gustavo/dev_ws/src/action_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/gustavo/dev_ws/install/action_tutorials'], 'cwd': '/home/gustavo/dev_ws/build/action_tutorials', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1566'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.47.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/37/usr/share/code/code'), ('MANAGERPID', '1373'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5962'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:35653'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638'), ('INVOCATION_ID', '01846fd4d2204a7e8d98040f527a2167'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/37/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/action_tutorials'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.501208] (-) TimerEvent: {}
+[0.601879] (-) TimerEvent: {}
+[0.702474] (-) TimerEvent: {}
+[0.803016] (-) TimerEvent: {}
+[0.903543] (-) TimerEvent: {}
+[1.004131] (-) TimerEvent: {}
+[1.104935] (-) TimerEvent: {}
+[1.205589] (-) TimerEvent: {}
+[1.306179] (-) TimerEvent: {}
+[1.406788] (-) TimerEvent: {}
+[1.507375] (-) TimerEvent: {}
+[1.608191] (-) TimerEvent: {}
+[1.709347] (-) TimerEvent: {}
+[1.810217] (-) TimerEvent: {}
+[1.910821] (-) TimerEvent: {}
+[2.011442] (-) TimerEvent: {}
+[2.112178] (-) TimerEvent: {}
+[2.213011] (-) TimerEvent: {}
+[2.215488] (my_pkg_turtlesim) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/my_pkg_turtlesim', 'build', '--build-base', '/home/gustavo/dev_ws/build/my_pkg_turtlesim/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/my_pkg_turtlesim', '--record', '/home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/my_pkg_turtlesim', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '1566', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/gustavo/dev_ws/src', 'TERM_PROGRAM_VERSION': '1.47.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/37/usr/share/code/code', 'MANAGERPID': '1373', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5962', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:35653', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638', 'INVOCATION_ID': '01846fd4d2204a7e8d98040f527a2167', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000/snap.code', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/snap/code/37/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/my_pkg_turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.290555] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/py_pubsub', 'build', '--build-base', '/home/gustavo/dev_ws/build/py_pubsub/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/py_pubsub', '--record', '/home/gustavo/dev_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '1566', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/gustavo/dev_ws/src', 'TERM_PROGRAM_VERSION': '1.47.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/37/usr/share/code/code', 'MANAGERPID': '1373', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5962', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:35653', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638', 'INVOCATION_ID': '01846fd4d2204a7e8d98040f527a2167', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000/snap.code', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/snap/code/37/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/py_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.313163] (-) TimerEvent: {}
+[2.358804] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/py_srvcli', 'build', '--build-base', '/home/gustavo/dev_ws/build/py_srvcli/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/py_srvcli', '--record', '/home/gustavo/dev_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '1566', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/gustavo/dev_ws/src', 'TERM_PROGRAM_VERSION': '1.47.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'pt_BR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/37/usr/share/code/code', 'MANAGERPID': '1373', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5962', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:35653', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638', 'INVOCATION_ID': '01846fd4d2204a7e8d98040f527a2167', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000/snap.code', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/snap/code/37/usr/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'DISABLE_WAYLAND': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/py_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.413448] (-) TimerEvent: {}
+[2.514234] (-) TimerEvent: {}
+[2.614844] (-) TimerEvent: {}
+[2.718828] (-) TimerEvent: {}
+[2.823046] (-) TimerEvent: {}
+[2.927594] (-) TimerEvent: {}
+[3.028876] (-) TimerEvent: {}
+[3.129517] (-) TimerEvent: {}
+[3.230151] (-) TimerEvent: {}
+[3.334096] (-) TimerEvent: {}
+[3.434801] (-) TimerEvent: {}
+[3.535442] (-) TimerEvent: {}
+[3.636047] (-) TimerEvent: {}
+[3.736698] (-) TimerEvent: {}
+[3.837353] (-) TimerEvent: {}
+[3.937970] (-) TimerEvent: {}
+[3.971333] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.975252] (my_pkg_turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[3.975875] (my_pkg_turtlesim) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/PKG-INFO\n'}
+[3.976417] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.976685] (py_pubsub) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[3.976883] (py_srvcli) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[4.006028] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[4.006638] (py_srvcli) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[4.007050] (py_srvcli) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[4.008200] (py_srvcli) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[4.038123] (-) TimerEvent: {}
+[4.043131] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[4.044147] (py_pubsub) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[4.044906] (py_pubsub) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[4.045355] (py_pubsub) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[4.079624] (my_pkg_turtlesim) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/dependency_links.txt\n'}
+[4.080283] (my_pkg_turtlesim) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/entry_points.txt\n'}
+[4.080749] (my_pkg_turtlesim) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/requires.txt\n'}
+[4.081085] (my_pkg_turtlesim) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/top_level.txt\n'}
+[4.138264] (-) TimerEvent: {}
+[4.238984] (-) TimerEvent: {}
+[4.339626] (-) TimerEvent: {}
+[4.440426] (-) TimerEvent: {}
+[4.541136] (-) TimerEvent: {}
+[4.641742] (-) TimerEvent: {}
+[4.742322] (-) TimerEvent: {}
+[4.827210] (my_pkg_turtlesim) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'\n"}
+[4.842478] (-) TimerEvent: {}
+[4.844761] (py_srvcli) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[4.877262] (my_pkg_turtlesim) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'\n"}
+[4.877876] (my_pkg_turtlesim) StdoutLine: {'line': b'running build\n'}
+[4.878168] (my_pkg_turtlesim) StdoutLine: {'line': b'running build_py\n'}
+[4.911197] (py_srvcli) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[4.911777] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[4.911987] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[4.930155] (my_pkg_turtlesim) StdoutLine: {'line': b'running install\n'}
+[4.938635] (py_pubsub) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.942647] (-) TimerEvent: {}
+[4.952658] (py_pubsub) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.953278] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[4.953579] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[4.962155] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[4.992037] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_lib\n'}
+[4.992561] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[5.042824] (-) TimerEvent: {}
+[5.058206] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[5.060268] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[5.099148] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[5.099723] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_data\n'}
+[5.109992] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[5.143067] (-) TimerEvent: {}
+[5.144633] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.145827] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.146378] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.218415] (py_srvcli) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.219149] (my_pkg_turtlesim) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.219491] (py_pubsub) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.219923] (py_srvcli) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info to /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[5.243283] (-) TimerEvent: {}
+[5.252451] (my_pkg_turtlesim) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim-0.0.0-py3.8.egg-info\n'}
+[5.263710] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[5.287328] (my_pkg_turtlesim) StdoutLine: {'line': b'running install_scripts\n'}
+[5.343473] (-) TimerEvent: {}
+[5.353881] (py_pubsub) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info to /home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[5.380259] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[5.443616] (-) TimerEvent: {}
+[5.544233] (-) TimerEvent: {}
+[5.578474] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.578964] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[5.582568] (my_pkg_turtlesim) StdoutLine: {'line': b'Installing velocity_publisher script to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/my_pkg_turtlesim\n'}
+[5.593228] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[5.593791] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.594658] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/py_pubsub/install.log'\n"}
+[5.595125] (my_pkg_turtlesim) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log'\n"}
+[5.595438] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/py_srvcli/install.log'\n"}
+[5.644443] (-) TimerEvent: {}
+[5.732002] (py_srvcli) CommandEnded: {'returncode': 0}
+[5.744623] (-) TimerEvent: {}
+[5.845253] (-) TimerEvent: {}
+[5.852434] (action_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[5.945423] (-) TimerEvent: {}
+[6.046309] (-) TimerEvent: {}
+[6.146884] (-) TimerEvent: {}
+[6.164825] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[6.169672] (py_pubsub) CommandEnded: {'returncode': 0}
+[6.209770] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[6.221260] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[6.247060] (-) TimerEvent: {}
+[6.274963] (my_pkg_turtlesim) CommandEnded: {'returncode': 0}
+[6.302649] (my_pkg_turtlesim) JobEnded: {'identifier': 'my_pkg_turtlesim', 'rc': 0}
+[6.306790] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[6.347271] (-) TimerEvent: {}
+[6.380596] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[6.382931] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gustavo/dev_ws/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/gustavo/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1566'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.47.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/37/usr/share/code/code'), ('MANAGERPID', '1373'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5962'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:35653'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638'), ('INVOCATION_ID', '01846fd4d2204a7e8d98040f527a2167'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/37/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.447534] (-) TimerEvent: {}
+[6.548251] (-) TimerEvent: {}
+[6.649078] (-) TimerEvent: {}
+[6.749757] (-) TimerEvent: {}
+[6.850454] (-) TimerEvent: {}
+[6.951074] (-) TimerEvent: {}
+[7.051626] (-) TimerEvent: {}
+[7.152268] (-) TimerEvent: {}
+[7.252893] (-) TimerEvent: {}
+[7.353548] (-) TimerEvent: {}
+[7.454063] (-) TimerEvent: {}
+[7.530236] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.554221] (-) TimerEvent: {}
+[7.654859] (-) TimerEvent: {}
+[7.755482] (-) TimerEvent: {}
+[7.856249] (-) TimerEvent: {}
+[7.946986] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") \n'}
+[7.947647] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.956392] (-) TimerEvent: {}
+[8.056997] (-) TimerEvent: {}
+[8.157678] (-) TimerEvent: {}
+[8.258418] (-) TimerEvent: {}
+[8.358906] (-) TimerEvent: {}
+[8.459465] (-) TimerEvent: {}
+[8.560042] (-) TimerEvent: {}
+[8.660319] (action_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[8.661224] (-) TimerEvent: {}
+[8.715669] (action_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[8.761453] (-) TimerEvent: {}
+[8.862049] (-) TimerEvent: {}
+[8.962726] (-) TimerEvent: {}
+[9.063360] (-) TimerEvent: {}
+[9.100556] (action_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[9.113340] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.163556] (-) TimerEvent: {}
+[9.233647] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.263728] (-) TimerEvent: {}
+[9.320456] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.361828] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.363810] (-) TimerEvent: {}
+[9.377195] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.381499] (action_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[9.463993] (-) TimerEvent: {}
+[9.540796] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.562197] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.564157] (-) TimerEvent: {}
+[9.572454] (action_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[9.576476] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.576825] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.577132] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.638793] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[9.642434] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/gustavo/dev_ws/build/tutorial_interfaces\n'}
+[9.664344] (-) TimerEvent: {}
+[9.698834] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.754213] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[9.764368] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.765172] (-) TimerEvent: {}
+[9.791532] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gustavo/dev_ws/build/tutorial_interfaces'], 'cwd': '/home/gustavo/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1566'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.47.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/37/usr/share/code/code'), ('MANAGERPID', '1373'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5962'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:35653'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638'), ('INVOCATION_ID', '01846fd4d2204a7e8d98040f527a2167'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/37/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.807130] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.808611] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.819570] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.840027] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[9.854263] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[9.862246] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[9.862690] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.863256] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[9.863665] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[9.864044] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[9.864487] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[9.864933] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[9.865250] (-) TimerEvent: {}
+[9.865769] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[9.866107] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[9.866581] (action_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[9.882380] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[9.893008] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[9.893993] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[9.899568] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[9.899878] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.935542] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[9.942419] (action_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") \n'}
+[9.943271] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.965422] (-) TimerEvent: {}
+[10.065923] (-) TimerEvent: {}
+[10.166408] (-) TimerEvent: {}
+[10.266862] (-) TimerEvent: {}
+[10.367353] (-) TimerEvent: {}
+[10.426162] (action_tutorials) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[10.467603] (-) TimerEvent: {}
+[10.488764] (action_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.548691] (action_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[10.567748] (-) TimerEvent: {}
+[10.668333] (-) TimerEvent: {}
+[10.768906] (-) TimerEvent: {}
+[10.869498] (-) TimerEvent: {}
+[10.970314] (-) TimerEvent: {}
+[11.071133] (-) TimerEvent: {}
+[11.171890] (-) TimerEvent: {}
+[11.241593] (action_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[11.272155] (-) TimerEvent: {}
+[11.312011] (action_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[11.372412] (-) TimerEvent: {}
+[11.472993] (-) TimerEvent: {}
+[11.573689] (-) TimerEvent: {}
+[11.650995] (action_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.673827] (-) TimerEvent: {}
+[11.774458] (-) TimerEvent: {}
+[11.820166] (action_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.2") \n'}
+[11.874593] (-) TimerEvent: {}
+[11.975188] (-) TimerEvent: {}
+[12.075922] (-) TimerEvent: {}
+[12.176581] (-) TimerEvent: {}
+[12.277270] (-) TimerEvent: {}
+[12.372389] (action_tutorials) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[12.378531] (-) TimerEvent: {}
+[12.482383] (-) TimerEvent: {}
+[12.583199] (-) TimerEvent: {}
+[12.683835] (-) TimerEvent: {}
+[12.720511] (action_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.783989] (-) TimerEvent: {}
+[12.808553] (action_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.869273] (action_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3.5") \n'}
+[12.884212] (-) TimerEvent: {}
+[12.886114] (action_tutorials) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[12.984381] (-) TimerEvent: {}
+[13.022961] (action_tutorials) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.2", minimum required is "3.5") \n'}
+[13.023737] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.024230] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[13.024636] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[13.067503] (action_tutorials) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[13.084541] (-) TimerEvent: {}
+[13.185175] (-) TimerEvent: {}
+[13.217937] (action_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[13.285379] (-) TimerEvent: {}
+[13.307321] (action_tutorials) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.314244] (action_tutorials) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.317192] (action_tutorials) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.328162] (action_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.385582] (-) TimerEvent: {}
+[13.486352] (-) TimerEvent: {}
+[13.586949] (-) TimerEvent: {}
+[13.665780] (action_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[13.672195] (action_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/gustavo/dev_ws/build/action_tutorials\n'}
+[13.687157] (-) TimerEvent: {}
+[13.701996] (action_tutorials) CommandEnded: {'returncode': 0}
+[13.704842] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'build'}
+[13.705072] (action_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gustavo/dev_ws/build/action_tutorials', '--', '-j4', '-l4'], 'cwd': '/home/gustavo/dev_ws/build/action_tutorials', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1566'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.47.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/37/usr/share/code/code'), ('MANAGERPID', '1373'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5962'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:35653'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638'), ('INVOCATION_ID', '01846fd4d2204a7e8d98040f527a2167'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/37/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/action_tutorials'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.787353] (-) TimerEvent: {}
+[13.807909] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__cpp\x1b[0m\n'}
+[13.816157] (action_tutorials) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.831758] (action_tutorials) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.887489] (-) TimerEvent: {}
+[13.988559] (-) TimerEvent: {}
+[14.089214] (-) TimerEvent: {}
+[14.189835] (-) TimerEvent: {}
+[14.290410] (-) TimerEvent: {}
+[14.390934] (-) TimerEvent: {}
+[14.491475] (-) TimerEvent: {}
+[14.592020] (-) TimerEvent: {}
+[14.692547] (-) TimerEvent: {}
+[14.793120] (-) TimerEvent: {}
+[14.858216] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_generator_c\x1b[0m\n'}
+[14.865426] (action_tutorials) StdoutLine: {'line': b'[  6%] Built target action_tutorials__cpp\n'}
+[14.887490] (action_tutorials) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.890532] (action_tutorials) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.893560] (-) TimerEvent: {}
+[14.896593] (action_tutorials) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.962012] (action_tutorials) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[14.993626] (-) TimerEvent: {}
+[15.094258] (-) TimerEvent: {}
+[15.194861] (-) TimerEvent: {}
+[15.299320] (-) TimerEvent: {}
+[15.403466] (-) TimerEvent: {}
+[15.507013] (-) TimerEvent: {}
+[15.610583] (-) TimerEvent: {}
+[15.696894] (action_tutorials) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials__rosidl_generator_c.so\x1b[0m\n'}
+[15.710737] (-) TimerEvent: {}
+[15.811323] (-) TimerEvent: {}
+[15.912453] (-) TimerEvent: {}
+[15.955354] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_cpp\x1b[0m\n'}
+[15.985515] (action_tutorials) StdoutLine: {'line': b'[ 22%] Built target action_tutorials__rosidl_generator_c\n'}
+[16.012618] (-) TimerEvent: {}
+[16.038876] (action_tutorials) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.112758] (-) TimerEvent: {}
+[16.127548] (action_tutorials) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[16.128241] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[16.212905] (-) TimerEvent: {}
+[16.294161] (action_tutorials) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[16.297371] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[16.313064] (-) TimerEvent: {}
+[16.413681] (-) TimerEvent: {}
+[16.514290] (-) TimerEvent: {}
+[16.614809] (-) TimerEvent: {}
+[16.715296] (-) TimerEvent: {}
+[16.774067] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_c\x1b[0m\n'}
+[16.815507] (-) TimerEvent: {}
+[16.916038] (-) TimerEvent: {}
+[16.967556] (action_tutorials) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[17.016218] (-) TimerEvent: {}
+[17.116875] (-) TimerEvent: {}
+[17.204985] (action_tutorials) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[17.217088] (-) TimerEvent: {}
+[17.230033] (action_tutorials) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.317245] (-) TimerEvent: {}
+[17.330789] (action_tutorials) StdoutLine: {'line': b'[ 41%] Built target action_tutorials__rosidl_typesupport_c\n'}
+[17.352250] (action_tutorials) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.417371] (-) TimerEvent: {}
+[17.517953] (-) TimerEvent: {}
+[17.620688] (-) TimerEvent: {}
+[17.724922] (-) TimerEvent: {}
+[17.829228] (-) TimerEvent: {}
+[17.929913] (-) TimerEvent: {}
+[18.034270] (-) TimerEvent: {}
+[18.135352] (-) TimerEvent: {}
+[18.236429] (-) TimerEvent: {}
+[18.337590] (-) TimerEvent: {}
+[18.438489] (-) TimerEvent: {}
+[18.539280] (-) TimerEvent: {}
+[18.645690] (-) TimerEvent: {}
+[18.746378] (-) TimerEvent: {}
+[18.762793] (action_tutorials) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.794550] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[18.846570] (-) TimerEvent: {}
+[18.901466] (action_tutorials) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[18.925306] (action_tutorials) StdoutLine: {'line': b'[ 51%] Built target action_tutorials__rosidl_typesupport_cpp\n'}
+[18.946734] (-) TimerEvent: {}
+[19.040826] (action_tutorials) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[19.047150] (-) TimerEvent: {}
+[19.088679] (action_tutorials) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.147306] (-) TimerEvent: {}
+[19.159103] (action_tutorials) StdoutLine: {'line': b'[ 58%] Built target action_tutorials__rosidl_typesupport_introspection_c\n'}
+[19.247477] (-) TimerEvent: {}
+[19.315439] (action_tutorials) StdoutLine: {'line': b'[ 58%] Built target action_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[19.347641] (-) TimerEvent: {}
+[19.448227] (-) TimerEvent: {}
+[19.548819] (-) TimerEvent: {}
+[19.649426] (-) TimerEvent: {}
+[19.719787] (action_tutorials) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.749585] (-) TimerEvent: {}
+[19.850275] (-) TimerEvent: {}
+[19.950899] (-) TimerEvent: {}
+[20.030167] (action_tutorials) StdoutLine: {'line': b'[ 61%] Built target action_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[20.051079] (-) TimerEvent: {}
+[20.060259] (action_tutorials) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.151309] (-) TimerEvent: {}
+[20.252000] (-) TimerEvent: {}
+[20.352655] (-) TimerEvent: {}
+[20.453116] (-) TimerEvent: {}
+[20.553681] (-) TimerEvent: {}
+[20.654158] (-) TimerEvent: {}
+[20.754683] (-) TimerEvent: {}
+[20.855189] (-) TimerEvent: {}
+[20.955803] (-) TimerEvent: {}
+[21.011336] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[21.056005] (-) TimerEvent: {}
+[21.093857] (action_tutorials) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[21.156158] (-) TimerEvent: {}
+[21.257195] (-) TimerEvent: {}
+[21.357822] (-) TimerEvent: {}
+[21.458455] (-) TimerEvent: {}
+[21.559032] (-) TimerEvent: {}
+[21.659572] (-) TimerEvent: {}
+[21.760236] (-) TimerEvent: {}
+[21.860874] (-) TimerEvent: {}
+[21.961498] (-) TimerEvent: {}
+[22.062120] (-) TimerEvent: {}
+[22.078808] (action_tutorials) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.162278] (-) TimerEvent: {}
+[22.262917] (-) TimerEvent: {}
+[22.305414] (action_tutorials) StdoutLine: {'line': b'[ 70%] Built target action_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[22.329698] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials\x1b[0m\n'}
+[22.351666] (action_tutorials) StdoutLine: {'line': b'[ 70%] Built target action_tutorials\n'}
+[22.363073] (-) TimerEvent: {}
+[22.380706] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__py\x1b[0m\n'}
+[22.405311] (action_tutorials) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[22.463284] (-) TimerEvent: {}
+[22.563889] (-) TimerEvent: {}
+[22.664474] (-) TimerEvent: {}
+[22.765056] (-) TimerEvent: {}
+[22.865686] (-) TimerEvent: {}
+[22.966393] (-) TimerEvent: {}
+[23.067095] (-) TimerEvent: {}
+[23.167715] (-) TimerEvent: {}
+[23.268272] (-) TimerEvent: {}
+[23.368873] (-) TimerEvent: {}
+[23.469488] (-) TimerEvent: {}
+[23.570114] (-) TimerEvent: {}
+[23.670721] (-) TimerEvent: {}
+[23.771350] (-) TimerEvent: {}
+[23.872042] (-) TimerEvent: {}
+[23.972749] (-) TimerEvent: {}
+[24.073297] (-) TimerEvent: {}
+[24.173833] (-) TimerEvent: {}
+[24.274569] (-) TimerEvent: {}
+[24.375254] (-) TimerEvent: {}
+[24.475807] (-) TimerEvent: {}
+[24.576287] (-) TimerEvent: {}
+[24.676817] (-) TimerEvent: {}
+[24.777338] (-) TimerEvent: {}
+[24.877897] (-) TimerEvent: {}
+[24.978466] (-) TimerEvent: {}
+[25.078997] (-) TimerEvent: {}
+[25.179525] (-) TimerEvent: {}
+[25.280033] (-) TimerEvent: {}
+[25.380573] (-) TimerEvent: {}
+[25.481141] (-) TimerEvent: {}
+[25.581743] (-) TimerEvent: {}
+[25.666644] (action_tutorials) StdoutLine: {'line': b'[ 74%] Built target action_tutorials__py\n'}
+[25.681907] (-) TimerEvent: {}
+[25.688869] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__python\x1b[0m\n'}
+[25.782078] (-) TimerEvent: {}
+[25.882637] (-) TimerEvent: {}
+[25.896269] (action_tutorials) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__python.dir/rosidl_generator_py/action_tutorials/action/_fibonacci_s.c.o\x1b[0m\n'}
+[25.982840] (-) TimerEvent: {}
+[26.083388] (-) TimerEvent: {}
+[26.184086] (-) TimerEvent: {}
+[26.284758] (-) TimerEvent: {}
+[26.385408] (-) TimerEvent: {}
+[26.486122] (-) TimerEvent: {}
+[26.506300] (action_tutorials) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials/libaction_tutorials__python.so\x1b[0m\n'}
+[26.586289] (-) TimerEvent: {}
+[26.649686] (action_tutorials) StdoutLine: {'line': b'[ 80%] Built target action_tutorials__python\n'}
+[26.674883] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[26.677430] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[26.677748] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[26.686427] (-) TimerEvent: {}
+[26.746477] (action_tutorials) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.749734] (action_tutorials) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.764265] (action_tutorials) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.786609] (-) TimerEvent: {}
+[26.888533] (-) TimerEvent: {}
+[26.991335] (-) TimerEvent: {}
+[27.045021] (action_tutorials) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.091511] (-) TimerEvent: {}
+[27.125711] (action_tutorials) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials/action_tutorials_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.144009] (action_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.171701] (action_tutorials) StdoutLine: {'line': b'[100%] Built target action_tutorials__rosidl_typesupport_c__pyext\n'}
+[27.191681] (-) TimerEvent: {}
+[27.247391] (action_tutorials) StdoutLine: {'line': b'[100%] Built target action_tutorials__rosidl_typesupport_introspection_c__pyext\n'}
+[27.291846] (-) TimerEvent: {}
+[27.318069] (action_tutorials) StdoutLine: {'line': b'[100%] Built target action_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[27.342625] (action_tutorials) CommandEnded: {'returncode': 0}
+[27.392066] (-) TimerEvent: {}
+[27.437007] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'install'}
+[27.438520] (action_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gustavo/dev_ws/build/action_tutorials'], 'cwd': '/home/gustavo/dev_ws/build/action_tutorials', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1566'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.47.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/37/usr/share/code/code'), ('MANAGERPID', '1373'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5962'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:35653'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/gustavo/.local/bin:/opt/ros/foxy/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/1638,unix/gustavo:/tmp/.ICE-unix/1638'), ('INVOCATION_ID', '01846fd4d2204a7e8d98040f527a2167'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000/snap.code'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/snap.code/vscode-git-2bb4a50486.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/37/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/action_tutorials'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[27.462262] (action_tutorials) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.463192] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/rosidl_interfaces/action_tutorials\n'}
+[27.463659] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials\n'}
+[27.464185] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg\n'}
+[27.464567] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.464999] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action\n'}
+[27.465497] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail\n'}
+[27.465875] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__type_support.h\n'}
+[27.466211] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__struct.h\n'}
+[27.466510] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__functions.c\n'}
+[27.466920] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__functions.h\n'}
+[27.467294] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/fibonacci.h\n'}
+[27.467656] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/library_path.sh\n'}
+[27.467932] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/library_path.dsv\n'}
+[27.468232] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so\n'}
+[27.468664] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so" to ""\n'}
+[27.469053] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials\n'}
+[27.469549] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg\n'}
+[27.469923] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.470264] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action\n'}
+[27.470586] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail\n'}
+[27.470855] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[27.471339] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so\n'}
+[27.471854] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.472363] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials\n'}
+[27.472749] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg\n'}
+[27.473051] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.473387] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action\n'}
+[27.473714] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail\n'}
+[27.474138] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/dds_fastrtps\n'}
+[27.474592] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.475088] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.475494] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.475812] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials\n'}
+[27.476223] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg\n'}
+[27.476542] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.476814] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action\n'}
+[27.477267] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail\n'}
+[27.477617] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__type_support.c\n'}
+[27.477908] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[27.478257] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so\n'}
+[27.478578] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.479073] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so\n'}
+[27.479431] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so" to ""\n'}
+[27.479821] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials\n'}
+[27.480265] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action\n'}
+[27.480724] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail\n'}
+[27.481236] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__struct.hpp\n'}
+[27.481519] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__builder.hpp\n'}
+[27.481949] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__traits.hpp\n'}
+[27.482234] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/fibonacci.hpp\n'}
+[27.482545] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials\n'}
+[27.482879] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action\n'}
+[27.483267] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail\n'}
+[27.483674] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__type_support.cpp\n'}
+[27.483954] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.484286] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so\n'}
+[27.484824] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.485198] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so\n'}
+[27.485487] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so" to ""\n'}
+[27.485984] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/pythonpath.sh\n'}
+[27.486250] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/pythonpath.dsv\n'}
+[27.486658] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/__init__.py\n'}
+[27.492203] (-) TimerEvent: {}
+[27.563394] (action_tutorials) StdoutLine: {'line': b"Compiling '/home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/__init__.py'...\n"}
+[27.574029] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action\n'}
+[27.574659] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action/_fibonacci.py\n'}
+[27.575222] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action/__init__.py\n'}
+[27.575503] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action/_fibonacci_s.c\n'}
+[27.575926] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[27.577515] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[27.577966] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[27.579351] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[27.579928] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[27.581167] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[27.581637] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__python.so\n'}
+[27.582530] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__python.so" to ""\n'}
+[27.582945] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/action/Fibonacci.idl\n'}
+[27.583489] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/action/Fibonacci.action\n'}
+[27.584009] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/package_run_dependencies/action_tutorials\n'}
+[27.584684] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/parent_prefix_path/action_tutorials\n'}
+[27.585239] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.sh\n'}
+[27.585772] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.dsv\n'}
+[27.586435] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/path.sh\n'}
+[27.586877] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/path.dsv\n'}
+[27.587500] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.bash\n'}
+[27.587944] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.sh\n'}
+[27.588409] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.zsh\n'}
+[27.588780] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.dsv\n'}
+[27.589113] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/package.dsv\n'}
+[27.589582] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/packages/action_tutorials\n'}
+[27.590152] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_generator_cExport.cmake\n'}
+[27.590583] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.591133] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.591559] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.592198] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cExport.cmake\n'}
+[27.592515] (-) TimerEvent: {}
+[27.592893] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.593362] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_generator_cppExport.cmake\n'}
+[27.593708] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.594165] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.594652] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cppExport.cmake\n'}
+[27.595185] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.595614] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake-extras.cmake\n'}
+[27.596099] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.596549] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.597018] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.598163] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.598968] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.599713] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.600194] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig.cmake\n'}
+[27.600594] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig-version.cmake\n'}
+[27.600931] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/package.xml\n'}
+[27.607254] (action_tutorials) CommandEnded: {'returncode': 0}
+[27.635900] (action_tutorials) JobEnded: {'identifier': 'action_tutorials', 'rc': 0}
+[27.640268] (-) EventReactorShutdown: {}

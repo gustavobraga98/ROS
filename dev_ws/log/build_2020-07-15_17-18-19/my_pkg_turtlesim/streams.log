@@ -1,0 +1,37 @@
+[1.808s] Invoking command in '/home/gustavo/dev_ws/src/my_pkg_turtlesim': PYTHONPATH=/home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/my_pkg_turtlesim build --build-base /home/gustavo/dev_ws/build/my_pkg_turtlesim/build install --prefix /home/gustavo/dev_ws/install/my_pkg_turtlesim --record /home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log --single-version-externally-managed
+[3.431s] running egg_info
+[3.432s] creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info
+[3.433s] writing /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/PKG-INFO
+[3.433s] writing dependency_links to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/dependency_links.txt
+[3.434s] writing entry points to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/entry_points.txt
+[3.434s] writing requirements to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/requires.txt
+[3.435s] writing top-level names to /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/top_level.txt
+[3.686s] writing manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'
+[4.304s] reading manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'
+[4.306s] writing manifest file '/home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info/SOURCES.txt'
+[4.306s] running build
+[4.307s] running build_py
+[4.307s] creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/build
+[4.308s] creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib
+[4.308s] creating /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim
+[4.308s] copying my_pkg_turtlesim/velocity_publisher.py -> /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim
+[4.310s] copying my_pkg_turtlesim/__init__.py -> /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim
+[4.311s] running install
+[4.311s] running install_lib
+[4.421s] creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim
+[4.422s] copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim/velocity_publisher.py -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim
+[4.423s] copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/build/lib/my_pkg_turtlesim/__init__.py -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim
+[4.424s] byte-compiling /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim/velocity_publisher.py to velocity_publisher.cpython-38.pyc
+[4.430s] byte-compiling /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim/__init__.py to __init__.cpython-38.pyc
+[4.430s] running install_data
+[4.448s] creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index
+[4.448s] creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index/resource_index
+[4.449s] creating /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index/resource_index/packages
+[4.449s] copying resource/my_pkg_turtlesim -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/ament_index/resource_index/packages
+[4.449s] copying package.xml -> /home/gustavo/dev_ws/install/my_pkg_turtlesim/share/my_pkg_turtlesim
+[4.449s] running install_egg_info
+[4.654s] Copying /home/gustavo/dev_ws/build/my_pkg_turtlesim/my_pkg_turtlesim.egg-info to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages/my_pkg_turtlesim-0.0.0-py3.8.egg-info
+[4.656s] running install_scripts
+[5.096s] Installing velocity_publisher script to /home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/my_pkg_turtlesim
+[5.097s] writing list of installed files to '/home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log'
+[5.226s] Invoked command in '/home/gustavo/dev_ws/src/my_pkg_turtlesim' returned '0': PYTHONPATH=/home/gustavo/dev_ws/install/my_pkg_turtlesim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/my_pkg_turtlesim build --build-base /home/gustavo/dev_ws/build/my_pkg_turtlesim/build install --prefix /home/gustavo/dev_ws/install/my_pkg_turtlesim --record /home/gustavo/dev_ws/build/my_pkg_turtlesim/install.log --single-version-externally-managed

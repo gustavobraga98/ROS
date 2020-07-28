@@ -1,0 +1,38 @@
+[1.210s] Invoking command in '/home/gustavo/dev_ws/src/py_srvcli': PYTHONPATH=/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/py_srvcli build --build-base /home/gustavo/dev_ws/build/py_srvcli/build install --prefix /home/gustavo/dev_ws/install/py_srvcli --record /home/gustavo/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.832s] running egg_info
+[1.834s] writing /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.866s] writing dependency_links to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.867s] writing entry points to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.881s] writing requirements to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.881s] writing top-level names to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.218s] reading manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.243s] writing manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.243s] running build
+[2.244s] running build_py
+[2.280s] copying py_srvcli/server.py -> /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[2.280s] copying py_srvcli/__init__.py -> /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[2.281s] copying py_srvcli/client.py -> /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[2.282s] running install
+[2.283s] running install_lib
+[2.341s] copying /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli/server.py -> /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[2.341s] copying /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[2.342s] copying /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli/client.py -> /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[2.343s] byte-compiling /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/server.py to server.cpython-38.pyc
+[2.347s] byte-compiling /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc
+[2.347s] byte-compiling /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client.py to client.cpython-38.pyc
+[2.348s]   File "/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client.py", line 10
+[2.348s]     super().__init__('Service_Client'):
+[2.348s]                                       ^
+[2.349s] SyntaxError: invalid syntax
+[2.349s] 
+[2.349s] running install_data
+[2.414s] copying resource/py_srvcli -> /home/gustavo/dev_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[2.415s] copying package.xml -> /home/gustavo/dev_ws/install/py_srvcli/share/py_srvcli
+[2.415s] running install_egg_info
+[2.449s] removing '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[2.450s] Copying /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info to /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[2.461s] running install_scripts
+[2.662s] Installing client script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli
+[2.676s] Installing service script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli
+[2.676s] writing list of installed files to '/home/gustavo/dev_ws/build/py_srvcli/install.log'
+[3.057s] Invoked command in '/home/gustavo/dev_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/py_srvcli build --build-base /home/gustavo/dev_ws/build/py_srvcli/build install --prefix /home/gustavo/dev_ws/install/py_srvcli --record /home/gustavo/dev_ws/build/py_srvcli/install.log --single-version-externally-managed

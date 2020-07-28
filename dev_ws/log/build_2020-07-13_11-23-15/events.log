@@ -1,0 +1,507 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000853] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000988] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002165] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.031380] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.051423] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.099231] (-) TimerEvent: {}
+[0.200150] (-) TimerEvent: {}
+[0.300767] (-) TimerEvent: {}
+[0.401300] (-) TimerEvent: {}
+[0.501868] (-) TimerEvent: {}
+[0.602915] (-) TimerEvent: {}
+[0.704300] (-) TimerEvent: {}
+[0.805040] (-) TimerEvent: {}
+[0.905540] (-) TimerEvent: {}
+[1.006183] (-) TimerEvent: {}
+[1.081670] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[1.083038] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/gustavo/dev_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/gustavo/dev_ws/install/tutorial_interfaces'], 'cwd': '/home/gustavo/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2015'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1828'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:40561'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089'), ('INVOCATION_ID', '6fdf3dac9c114686ae2997fb68b188b8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2ba169e_972f_4ae8_91d1_d123eaa70df5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.106737] (-) TimerEvent: {}
+[1.124488] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/py_pubsub', 'build', '--build-base', '/home/gustavo/dev_ws/build/py_pubsub/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/py_pubsub', '--record', '/home/gustavo/dev_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '2015', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'OLDPWD': '/home/gustavo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '1828', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:40561', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089', 'INVOCATION_ID': '6fdf3dac9c114686ae2997fb68b188b8', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b2ba169e_972f_4ae8_91d1_d123eaa70df5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.173', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/py_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.140765] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/gustavo/dev_ws/build/py_srvcli', 'build', '--build-base', '/home/gustavo/dev_ws/build/py_srvcli/build', 'install', '--prefix', '/home/gustavo/dev_ws/install/py_srvcli', '--record', '/home/gustavo/dev_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/dev_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'SSH_AGENT_PID': '2015', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/gustavo', 'OLDPWD': '/home/gustavo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '1828', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '9:40561', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089', 'INVOCATION_ID': '6fdf3dac9c114686ae2997fb68b188b8', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b2ba169e_972f_4ae8_91d1_d123eaa70df5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.173', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/dev_ws/build/py_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.206884] (-) TimerEvent: {}
+[1.308414] (-) TimerEvent: {}
+[1.409400] (-) TimerEvent: {}
+[1.510302] (-) TimerEvent: {}
+[1.600261] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.601747] (py_pubsub) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.602435] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.603405] (py_pubsub) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[1.604205] (py_pubsub) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.604572] (py_pubsub) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.610477] (-) TimerEvent: {}
+[1.626879] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.628742] (py_srvcli) StdoutLine: {'line': b'writing /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[1.629334] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[1.629856] (py_srvcli) StdoutLine: {'line': b'writing entry points to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[1.630406] (py_srvcli) StdoutLine: {'line': b'writing requirements to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[1.630967] (py_srvcli) StdoutLine: {'line': b'writing top-level names to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[1.700708] (py_pubsub) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.706522] (py_pubsub) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.707045] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.707331] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.707619] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.708015] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.709949] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.710555] (-) TimerEvent: {}
+[1.711296] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.714619] (py_pubsub) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.715596] (py_pubsub) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/py_pubsub/py_pubsub.egg-info to /home/gustavo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[1.717979] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.727101] (py_srvcli) StdoutLine: {'line': b"reading manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.727638] (py_srvcli) StdoutLine: {'line': b"writing manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.727959] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[1.728267] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.728583] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[1.728909] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.735078] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.735628] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.735918] (py_srvcli) StdoutLine: {'line': b"removing '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.736225] (py_srvcli) StdoutLine: {'line': b'Copying /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info to /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[1.737576] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.774776] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.775465] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/gustavo/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.776220] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/py_pubsub/install.log'\n"}
+[1.777097] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.777636] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.778401] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/dev_ws/build/py_srvcli/install.log'\n"}
+[1.810929] (-) TimerEvent: {}
+[1.845806] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.871028] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.875113] (py_srvcli) CommandEnded: {'returncode': 0}
+[1.892671] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.911082] (-) TimerEvent: {}
+[2.011646] (-) TimerEvent: {}
+[2.112367] (-) TimerEvent: {}
+[2.213153] (-) TimerEvent: {}
+[2.314044] (-) TimerEvent: {}
+[2.414887] (-) TimerEvent: {}
+[2.482847] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.515062] (-) TimerEvent: {}
+[2.615793] (-) TimerEvent: {}
+[2.716499] (-) TimerEvent: {}
+[2.817223] (-) TimerEvent: {}
+[2.917942] (-) TimerEvent: {}
+[3.018753] (-) TimerEvent: {}
+[3.119473] (-) TimerEvent: {}
+[3.220129] (-) TimerEvent: {}
+[3.320715] (-) TimerEvent: {}
+[3.421335] (-) TimerEvent: {}
+[3.522122] (-) TimerEvent: {}
+[3.622764] (-) TimerEvent: {}
+[3.650746] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[3.722961] (-) TimerEvent: {}
+[3.771919] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.823133] (-) TimerEvent: {}
+[3.923900] (-) TimerEvent: {}
+[4.024676] (-) TimerEvent: {}
+[4.033168] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.050720] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.124899] (-) TimerEvent: {}
+[4.225581] (-) TimerEvent: {}
+[4.238914] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.266362] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.277465] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.283401] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.325827] (-) TimerEvent: {}
+[4.426571] (-) TimerEvent: {}
+[4.449901] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.450555] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.526867] (-) TimerEvent: {}
+[4.620579] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.626967] (-) TimerEvent: {}
+[4.647089] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.648286] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.727256] (-) TimerEvent: {}
+[4.727928] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.824653] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") \n'}
+[4.825504] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.827370] (-) TimerEvent: {}
+[4.928103] (-) TimerEvent: {}
+[5.028601] (-) TimerEvent: {}
+[5.129179] (-) TimerEvent: {}
+[5.229678] (-) TimerEvent: {}
+[5.330223] (-) TimerEvent: {}
+[5.355237] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.375283] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.410338] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.430418] (-) TimerEvent: {}
+[5.530987] (-) TimerEvent: {}
+[5.631620] (-) TimerEvent: {}
+[5.732371] (-) TimerEvent: {}
+[5.833142] (-) TimerEvent: {}
+[5.933865] (-) TimerEvent: {}
+[6.006827] (tutorial_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.034072] (-) TimerEvent: {}
+[6.069289] (tutorial_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.134223] (-) TimerEvent: {}
+[6.234903] (-) TimerEvent: {}
+[6.335653] (-) TimerEvent: {}
+[6.390623] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.435819] (-) TimerEvent: {}
+[6.531024] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.2") \n'}
+[6.535911] (-) TimerEvent: {}
+[6.636415] (-) TimerEvent: {}
+[6.737032] (-) TimerEvent: {}
+[6.837626] (-) TimerEvent: {}
+[6.900781] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.937830] (-) TimerEvent: {}
+[7.038461] (-) TimerEvent: {}
+[7.139106] (-) TimerEvent: {}
+[7.141022] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.168456] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.217971] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3.5") \n'}
+[7.234493] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[7.239295] (-) TimerEvent: {}
+[7.340015] (-) TimerEvent: {}
+[7.395922] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.2", minimum required is "3.5") \n'}
+[7.396726] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.397168] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[7.397746] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[7.440254] (-) TimerEvent: {}
+[7.440900] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.540460] (-) TimerEvent: {}
+[7.576198] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.640604] (-) TimerEvent: {}
+[7.703851] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.708392] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.711328] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.721460] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.740765] (-) TimerEvent: {}
+[7.807292] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[7.814757] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/gustavo/dev_ws/build/tutorial_interfaces\n'}
+[7.830198] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[7.831781] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[7.833839] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gustavo/dev_ws/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/gustavo/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2015'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1828'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:40561'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089'), ('INVOCATION_ID', '6fdf3dac9c114686ae2997fb68b188b8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2ba169e_972f_4ae8_91d1_d123eaa70df5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.840922] (-) TimerEvent: {}
+[7.919075] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.921413] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__cpp\x1b[0m\n'}
+[7.941051] (-) TimerEvent: {}
+[7.955322] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.041191] (-) TimerEvent: {}
+[8.141748] (-) TimerEvent: {}
+[8.242353] (-) TimerEvent: {}
+[8.342974] (-) TimerEvent: {}
+[8.443519] (-) TimerEvent: {}
+[8.544026] (-) TimerEvent: {}
+[8.644581] (-) TimerEvent: {}
+[8.745279] (-) TimerEvent: {}
+[8.757027] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target tutorial_interfaces__cpp\n'}
+[8.780846] (tutorial_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.793697] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.795431] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[8.801762] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.845451] (-) TimerEvent: {}
+[8.854919] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[8.945625] (-) TimerEvent: {}
+[9.048551] (-) TimerEvent: {}
+[9.151600] (-) TimerEvent: {}
+[9.219978] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[9.251750] (-) TimerEvent: {}
+[9.354950] (-) TimerEvent: {}
+[9.420125] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.455093] (-) TimerEvent: {}
+[9.560969] (-) TimerEvent: {}
+[9.614396] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[9.659759] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.661131] (-) TimerEvent: {}
+[9.762009] (-) TimerEvent: {}
+[9.792280] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.862259] (-) TimerEvent: {}
+[9.862757] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.895654] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.964032] (-) TimerEvent: {}
+[9.965211] (tutorial_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[10.046626] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[10.064162] (-) TimerEvent: {}
+[10.164727] (-) TimerEvent: {}
+[10.265294] (-) TimerEvent: {}
+[10.365846] (-) TimerEvent: {}
+[10.466536] (-) TimerEvent: {}
+[10.567127] (-) TimerEvent: {}
+[10.575237] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.667304] (-) TimerEvent: {}
+[10.677069] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[10.728766] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[10.758084] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[10.767469] (-) TimerEvent: {}
+[10.837621] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.867608] (-) TimerEvent: {}
+[10.911849] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.935061] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[10.967770] (-) TimerEvent: {}
+[11.068592] (-) TimerEvent: {}
+[11.169228] (-) TimerEvent: {}
+[11.272117] (-) TimerEvent: {}
+[11.375212] (-) TimerEvent: {}
+[11.478095] (-) TimerEvent: {}
+[11.578787] (-) TimerEvent: {}
+[11.681844] (-) TimerEvent: {}
+[11.784828] (-) TimerEvent: {}
+[11.887528] (-) TimerEvent: {}
+[11.990368] (-) TimerEvent: {}
+[12.019693] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.021512] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.025834] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.090566] (-) TimerEvent: {}
+[12.179812] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[12.190739] (-) TimerEvent: {}
+[12.231074] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.290950] (-) TimerEvent: {}
+[12.391606] (-) TimerEvent: {}
+[12.492297] (-) TimerEvent: {}
+[12.592916] (-) TimerEvent: {}
+[12.693571] (-) TimerEvent: {}
+[12.794193] (-) TimerEvent: {}
+[12.894821] (-) TimerEvent: {}
+[12.942281] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[12.999868] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[13.000807] (-) TimerEvent: {}
+[13.007320] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[13.100396] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.100929] (-) TimerEvent: {}
+[13.120379] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.201162] (-) TimerEvent: {}
+[13.233640] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[13.238720] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[13.301324] (-) TimerEvent: {}
+[13.402189] (-) TimerEvent: {}
+[13.503019] (-) TimerEvent: {}
+[13.558212] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.603147] (-) TimerEvent: {}
+[13.703803] (-) TimerEvent: {}
+[13.804585] (-) TimerEvent: {}
+[13.809096] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[13.830082] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.904763] (-) TimerEvent: {}
+[14.005457] (-) TimerEvent: {}
+[14.106126] (-) TimerEvent: {}
+[14.206961] (-) TimerEvent: {}
+[14.307659] (-) TimerEvent: {}
+[14.408224] (-) TimerEvent: {}
+[14.423311] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[14.489410] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[14.490323] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[14.508384] (-) TimerEvent: {}
+[14.609013] (-) TimerEvent: {}
+[14.710139] (-) TimerEvent: {}
+[14.811241] (-) TimerEvent: {}
+[14.911942] (-) TimerEvent: {}
+[15.012886] (-) TimerEvent: {}
+[15.113916] (-) TimerEvent: {}
+[15.214799] (-) TimerEvent: {}
+[15.315946] (-) TimerEvent: {}
+[15.332536] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.416136] (-) TimerEvent: {}
+[15.517043] (-) TimerEvent: {}
+[15.535904] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.558604] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces\x1b[0m\n'}
+[15.579348] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces\n'}
+[15.604823] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__py\x1b[0m\n'}
+[15.617212] (-) TimerEvent: {}
+[15.630690] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.717396] (-) TimerEvent: {}
+[15.817917] (-) TimerEvent: {}
+[15.918486] (-) TimerEvent: {}
+[16.019107] (-) TimerEvent: {}
+[16.119784] (-) TimerEvent: {}
+[16.220367] (-) TimerEvent: {}
+[16.321013] (-) TimerEvent: {}
+[16.421830] (-) TimerEvent: {}
+[16.522562] (-) TimerEvent: {}
+[16.623384] (-) TimerEvent: {}
+[16.724275] (-) TimerEvent: {}
+[16.824986] (-) TimerEvent: {}
+[16.925812] (-) TimerEvent: {}
+[17.026521] (-) TimerEvent: {}
+[17.127093] (-) TimerEvent: {}
+[17.227644] (-) TimerEvent: {}
+[17.328156] (-) TimerEvent: {}
+[17.428672] (-) TimerEvent: {}
+[17.529174] (-) TimerEvent: {}
+[17.629743] (-) TimerEvent: {}
+[17.730449] (-) TimerEvent: {}
+[17.738293] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__py\n'}
+[17.761409] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__python\x1b[0m\n'}
+[17.830626] (-) TimerEvent: {}
+[17.931531] (-) TimerEvent: {}
+[17.949298] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[17.950572] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[18.031731] (-) TimerEvent: {}
+[18.132279] (-) TimerEvent: {}
+[18.233241] (-) TimerEvent: {}
+[18.334243] (-) TimerEvent: {}
+[18.370338] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so\x1b[0m\n'}
+[18.434414] (-) TimerEvent: {}
+[18.462117] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] Built target tutorial_interfaces__python\n'}
+[18.491175] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[18.500752] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.506296] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.534568] (-) TimerEvent: {}
+[18.562355] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.567310] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.588104] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.634743] (-) TimerEvent: {}
+[18.735604] (-) TimerEvent: {}
+[18.830574] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.835770] (-) TimerEvent: {}
+[18.875122] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.896847] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.924608] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[18.935965] (-) TimerEvent: {}
+[18.959737] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[19.034877] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.036045] (-) TimerEvent: {}
+[19.064039] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[19.136462] (-) TimerEvent: {}
+[19.173581] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[19.198120] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gustavo/dev_ws/build/tutorial_interfaces'], 'cwd': '/home/gustavo/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2015'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1828'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gustavo'), ('JOURNAL_STREAM', '9:40561'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo:@/tmp/.ICE-unix/2089,unix/gustavo:/tmp/.ICE-unix/2089'), ('INVOCATION_ID', '6fdf3dac9c114686ae2997fb68b188b8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2ba169e_972f_4ae8_91d1_d123eaa70df5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/dev_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[19.221628] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.222303] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[19.222668] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[19.223028] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[19.223337] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h\n'}
+[19.223589] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[19.223821] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[19.224049] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[19.224278] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[19.224571] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[19.224810] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.225049] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[19.225297] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[19.225535] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[19.225762] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[19.225940] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[19.226192] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[19.226381] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h\n'}
+[19.226611] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[19.226788] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[19.227075] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[19.227863] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[19.228105] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[19.228423] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[19.228662] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[19.229024] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[19.229208] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.229397] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[19.229629] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[19.229806] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[19.229983] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[19.230337] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.230573] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[19.230939] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[19.231205] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[19.232044] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.232239] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[19.232479] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.232658] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[19.232833] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[19.233008] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[19.233254] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.233608] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.233886] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.234114] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[19.234358] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[19.234655] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[19.234916] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[19.235095] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[19.235347] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.235526] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[19.235700] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[19.235874] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[19.236050] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[19.236318] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[19.236562] (-) TimerEvent: {}
+[19.236834] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.237051] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[19.237291] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[19.237543] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[19.237889] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[19.238128] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[19.238367] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[19.238651] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[19.238962] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[19.239204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp\n'}
+[19.239444] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[19.239671] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[19.239901] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[19.240245] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[19.240496] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[19.240841] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[19.241092] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[19.241270] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[19.241455] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[19.241686] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.241865] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[19.242040] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[19.242216] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[19.242460] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.242654] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[19.242925] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[19.243108] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.243284] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[19.243704] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[19.243942] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[19.244288] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[19.244800] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py\n'}
+[19.317194] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[19.327147] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg\n'}
+[19.327918] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[19.328567] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[19.329156] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[19.329553] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv\n'}
+[19.329918] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[19.330340] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[19.330756] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[19.331234] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.331749] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[19.332251] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.333479] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[19.334077] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.335407] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[19.335863] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so\n'}
+[19.336575] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""\n'}
+[19.336930] (-) TimerEvent: {}
+[19.337263] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[19.337709] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[19.338094] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[19.338494] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[19.338952] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[19.339308] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[19.339650] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[19.340022] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[19.340403] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[19.340788] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[19.341164] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[19.341618] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[19.342036] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[19.342395] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[19.342761] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[19.343137] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[19.343477] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[19.343847] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[19.344339] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[19.344719] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.345182] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.345558] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.346013] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[19.346397] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.346842] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[19.347341] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.348113] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.348462] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[19.348873] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.349171] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[19.349528] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.349900] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.350272] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.350632] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.351024] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.351376] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.351783] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[19.352138] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[19.352431] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[19.356089] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[19.381312] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[19.383300] (-) EventReactorShutdown: {}

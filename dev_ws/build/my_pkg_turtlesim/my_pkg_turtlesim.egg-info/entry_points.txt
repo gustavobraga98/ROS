@@ -1,0 +1,3 @@
+[console_scripts]
+velocity_publisher = my_pkg_turtlesim.velocity_publisher:main
+

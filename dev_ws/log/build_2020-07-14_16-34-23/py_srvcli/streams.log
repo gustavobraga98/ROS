@@ -1,0 +1,28 @@
+[1.196s] Invoking command in '/home/gustavo/dev_ws/src/py_srvcli': PYTHONPATH=/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/py_srvcli build --build-base /home/gustavo/dev_ws/build/py_srvcli/build install --prefix /home/gustavo/dev_ws/install/py_srvcli --record /home/gustavo/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.841s] running egg_info
+[1.843s] writing /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.859s] writing dependency_links to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.859s] writing entry points to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.861s] writing requirements to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.861s] writing top-level names to /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.054s] reading manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.065s] writing manifest file '/home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.065s] running build
+[2.066s] running build_py
+[2.068s] copying py_srvcli/server.py -> /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[2.090s] copying py_srvcli/client.py -> /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[2.091s] running install
+[2.093s] running install_lib
+[2.143s] copying /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli/server.py -> /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[2.172s] copying /home/gustavo/dev_ws/build/py_srvcli/build/lib/py_srvcli/client.py -> /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[2.175s] byte-compiling /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/server.py to server.cpython-38.pyc
+[2.179s] byte-compiling /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client.py to client.cpython-38.pyc
+[2.180s] running install_data
+[2.212s] running install_egg_info
+[2.231s] removing '/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[2.251s] Copying /home/gustavo/dev_ws/build/py_srvcli/py_srvcli.egg-info to /home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[2.274s] running install_scripts
+[2.498s] Installing client script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli
+[2.519s] Installing service script to /home/gustavo/dev_ws/install/py_srvcli/lib/py_srvcli
+[2.519s] writing list of installed files to '/home/gustavo/dev_ws/build/py_srvcli/install.log'
+[2.585s] Invoked command in '/home/gustavo/dev_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/build/py_srvcli build --build-base /home/gustavo/dev_ws/build/py_srvcli/build install --prefix /home/gustavo/dev_ws/install/py_srvcli --record /home/gustavo/dev_ws/build/py_srvcli/install.log --single-version-externally-managed

@@ -1,0 +1,117 @@
+[0.273s] Invoking command in '/home/gustavo/dev_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gustavo/dev_ws/build/action_tutorials -- -j4 -l4
+[2.851s] [  3%] Built target action_tutorials__cpp
+[2.851s] [ 12%] Built target action_tutorials__rosidl_generator_c
+[2.852s] [ 22%] Built target action_tutorials__rosidl_typesupport_c
+[2.852s] [ 32%] Built target action_tutorials__rosidl_typesupport_introspection_c
+[2.852s] [ 41%] Built target action_tutorials__rosidl_typesupport_cpp
+[2.853s] [ 51%] Built target action_tutorials__rosidl_typesupport_introspection_cpp
+[2.854s] [ 61%] Built target action_tutorials__rosidl_typesupport_fastrtps_cpp
+[2.855s] [ 70%] Built target action_tutorials__rosidl_typesupport_fastrtps_c
+[2.856s] [ 70%] Built target action_tutorials
+[2.856s] [ 74%] Built target action_tutorials__py
+[2.857s] [ 80%] Built target action_tutorials__python
+[2.857s] [ 87%] Built target action_tutorials__rosidl_typesupport_c__pyext
+[2.858s] [ 93%] Built target action_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[2.858s] [100%] Built target action_tutorials__rosidl_typesupport_introspection_c__pyext
+[2.865s] Invoked command in '/home/gustavo/dev_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gustavo/dev_ws/build/action_tutorials -- -j4 -l4
+[3.379s] Invoking command in '/home/gustavo/dev_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gustavo/dev_ws/build/action_tutorials
+[3.482s] -- Install configuration: ""
+[3.484s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/rosidl_interfaces/action_tutorials
+[3.492s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials
+[3.493s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg
+[3.493s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_generator_c__visibility_control.h
+[3.494s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action
+[3.494s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail
+[3.494s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__type_support.h
+[3.494s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__struct.h
+[3.495s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__functions.c
+[3.495s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__functions.h
+[3.495s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/fibonacci.h
+[3.495s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/library_path.sh
+[3.495s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/library_path.dsv
+[3.501s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so
+[3.502s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials
+[3.502s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg
+[3.505s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.505s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action
+[3.505s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail
+[3.505s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[3.506s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so
+[3.506s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials
+[3.506s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg
+[3.507s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.507s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action
+[3.507s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail
+[3.507s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/dds_fastrtps
+[3.508s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[3.510s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[3.510s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials
+[3.511s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg
+[3.511s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.511s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action
+[3.511s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail
+[3.512s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__type_support.c
+[3.513s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[3.526s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so
+[3.527s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so
+[3.529s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials
+[3.530s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action
+[3.530s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail
+[3.531s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__struct.hpp
+[3.531s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__builder.hpp
+[3.531s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__traits.hpp
+[3.532s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/fibonacci.hpp
+[3.538s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials
+[3.538s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action
+[3.539s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail
+[3.539s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__type_support.cpp
+[3.539s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/include/action_tutorials/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[3.546s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so
+[3.550s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so
+[3.550s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/pythonpath.sh
+[3.556s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/pythonpath.dsv
+[3.557s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/__init__.py
+[3.864s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action
+[3.871s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action/_fibonacci.py
+[3.872s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action/__init__.py
+[3.872s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action/_fibonacci_s.c
+[3.876s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.886s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.889s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/python3.8/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.901s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/lib/libaction_tutorials__python.so
+[3.902s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/action/Fibonacci.idl
+[3.906s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/action/Fibonacci.action
+[3.907s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/package_run_dependencies/action_tutorials
+[3.907s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/parent_prefix_path/action_tutorials
+[3.908s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.sh
+[3.908s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.dsv
+[3.914s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/path.sh
+[3.915s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/environment/path.dsv
+[3.915s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.bash
+[3.915s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.sh
+[3.916s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.zsh
+[3.916s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/local_setup.dsv
+[3.916s] -- Installing: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/package.dsv
+[3.926s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/ament_index/resource_index/packages/action_tutorials
+[3.926s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_generator_cExport.cmake
+[3.927s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_generator_cExport-noconfig.cmake
+[3.927s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cExport.cmake
+[3.928s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.928s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cExport.cmake
+[3.929s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cExport-noconfig.cmake
+[3.929s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_generator_cppExport.cmake
+[3.932s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cppExport.cmake
+[3.933s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.938s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cppExport.cmake
+[3.939s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cppExport-noconfig.cmake
+[3.939s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake-extras.cmake
+[3.939s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.940s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[3.940s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_targets-extras.cmake
+[3.940s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.946s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.946s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.946s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig.cmake
+[3.947s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig-version.cmake
+[3.947s] -- Up-to-date: /home/gustavo/dev_ws/install/action_tutorials/share/action_tutorials/package.xml
+[3.978s] Invoked command in '/home/gustavo/dev_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gustavo/dev_ws/build/action_tutorials

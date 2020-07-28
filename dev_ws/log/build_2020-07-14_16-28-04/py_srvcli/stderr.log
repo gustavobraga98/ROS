@@ -1,0 +1,5 @@
+  File "/home/gustavo/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client.py", line 10
+    super().__init__('Service_Client'):
+                                      ^
+SyntaxError: invalid syntax
+

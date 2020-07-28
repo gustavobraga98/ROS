@@ -1,0 +1,11 @@
+[0.667s] Invoking command in '/home/gustavo/dev_ws/src/py_pubsub': PYTHONPATH=/home/gustavo/dev_ws/src/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/src/build/py_pubsub build --build-base /home/gustavo/dev_ws/src/build/py_pubsub/build install --prefix /home/gustavo/dev_ws/src/install/py_pubsub --record /home/gustavo/dev_ws/src/build/py_pubsub/install.log --single-version-externally-managed
+[1.209s] running egg_info
+[1.210s] creating /home/gustavo/dev_ws/src/build/py_pubsub/py_pubsub.egg-info
+[1.211s] writing /home/gustavo/dev_ws/src/build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.211s] writing dependency_links to /home/gustavo/dev_ws/src/build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.212s] writing entry points to /home/gustavo/dev_ws/src/build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.212s] writing requirements to /home/gustavo/dev_ws/src/build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.212s] writing top-level names to /home/gustavo/dev_ws/src/build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.269s] writing manifest file '/home/gustavo/dev_ws/src/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.380s] interrupted
+[1.426s] Invoked command in '/home/gustavo/dev_ws/src/py_pubsub' returned '1': PYTHONPATH=/home/gustavo/dev_ws/src/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/dev_ws/src/build/py_pubsub build --build-base /home/gustavo/dev_ws/src/build/py_pubsub/build install --prefix /home/gustavo/dev_ws/src/install/py_pubsub --record /home/gustavo/dev_ws/src/build/py_pubsub/install.log --single-version-externally-managed
