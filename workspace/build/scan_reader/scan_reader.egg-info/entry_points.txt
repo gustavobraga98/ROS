@@ -1,0 +1,4 @@
+[console_scripts]
+laser_publisher = scan_reader.scan_publisher:main
+scan_reader = scan_reader.scan_reader:main
+

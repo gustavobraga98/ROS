@@ -1,0 +1,21 @@
+[0.728s] Invoking command in '/home/gustavo/workspace/src/myturtlebot3/velocity_publisher': PYTHONPATH=/home/gustavo/workspace/install/velocity_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/workspace/build/velocity_publisher build --build-base /home/gustavo/workspace/build/velocity_publisher/build install --prefix /home/gustavo/workspace/install/velocity_publisher --record /home/gustavo/workspace/build/velocity_publisher/install.log --single-version-externally-managed
+[0.954s] running egg_info
+[0.955s] writing /home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/PKG-INFO
+[0.955s] writing dependency_links to /home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/dependency_links.txt
+[0.956s] writing entry points to /home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/entry_points.txt
+[0.956s] writing requirements to /home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/requires.txt
+[0.956s] writing top-level names to /home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/top_level.txt
+[0.999s] reading manifest file '/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/SOURCES.txt'
+[1.000s] writing manifest file '/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/SOURCES.txt'
+[1.001s] running build
+[1.001s] running build_py
+[1.001s] running install
+[1.002s] running install_lib
+[1.003s] running install_data
+[1.004s] running install_egg_info
+[1.006s] removing '/home/gustavo/workspace/install/velocity_publisher/lib/python3.8/site-packages/velocity_publisher-0.0.1-py3.8.egg-info' (and everything under it)
+[1.006s] Copying /home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info to /home/gustavo/workspace/install/velocity_publisher/lib/python3.8/site-packages/velocity_publisher-0.0.1-py3.8.egg-info
+[1.007s] running install_scripts
+[1.029s] Installing velocity_publisher script to /home/gustavo/workspace/install/velocity_publisher/lib/velocity_publisher
+[1.029s] writing list of installed files to '/home/gustavo/workspace/build/velocity_publisher/install.log'
+[1.069s] Invoked command in '/home/gustavo/workspace/src/myturtlebot3/velocity_publisher' returned '0': PYTHONPATH=/home/gustavo/workspace/install/velocity_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/workspace/build/velocity_publisher build --build-base /home/gustavo/workspace/build/velocity_publisher/build install --prefix /home/gustavo/workspace/install/velocity_publisher --record /home/gustavo/workspace/build/velocity_publisher/install.log --single-version-externally-managed

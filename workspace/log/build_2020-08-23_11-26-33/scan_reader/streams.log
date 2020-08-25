@@ -1,0 +1,22 @@
+[0.908s] Invoking command in '/home/gustavo/workspace/src/myturtlebot3/scan_reader': PYTHONPATH=/home/gustavo/workspace/install/scan_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/workspace/build/scan_reader build --build-base /home/gustavo/workspace/build/scan_reader/build install --prefix /home/gustavo/workspace/install/scan_reader --record /home/gustavo/workspace/build/scan_reader/install.log --single-version-externally-managed
+[1.228s] running egg_info
+[1.229s] writing /home/gustavo/workspace/build/scan_reader/scan_reader.egg-info/PKG-INFO
+[1.229s] writing dependency_links to /home/gustavo/workspace/build/scan_reader/scan_reader.egg-info/dependency_links.txt
+[1.230s] writing entry points to /home/gustavo/workspace/build/scan_reader/scan_reader.egg-info/entry_points.txt
+[1.230s] writing requirements to /home/gustavo/workspace/build/scan_reader/scan_reader.egg-info/requires.txt
+[1.230s] writing top-level names to /home/gustavo/workspace/build/scan_reader/scan_reader.egg-info/top_level.txt
+[1.267s] reading manifest file '/home/gustavo/workspace/build/scan_reader/scan_reader.egg-info/SOURCES.txt'
+[1.268s] writing manifest file '/home/gustavo/workspace/build/scan_reader/scan_reader.egg-info/SOURCES.txt'
+[1.268s] running build
+[1.269s] running build_py
+[1.269s] running install
+[1.270s] running install_lib
+[1.272s] running install_data
+[1.272s] running install_egg_info
+[1.274s] removing '/home/gustavo/workspace/install/scan_reader/lib/python3.8/site-packages/scan_reader-0.0.0-py3.8.egg-info' (and everything under it)
+[1.275s] Copying /home/gustavo/workspace/build/scan_reader/scan_reader.egg-info to /home/gustavo/workspace/install/scan_reader/lib/python3.8/site-packages/scan_reader-0.0.0-py3.8.egg-info
+[1.276s] running install_scripts
+[1.298s] Installing laser_publisher script to /home/gustavo/workspace/install/scan_reader/lib/scan_reader
+[1.299s] Installing scan_reader script to /home/gustavo/workspace/install/scan_reader/lib/scan_reader
+[1.299s] writing list of installed files to '/home/gustavo/workspace/build/scan_reader/install.log'
+[1.329s] Invoked command in '/home/gustavo/workspace/src/myturtlebot3/scan_reader' returned '0': PYTHONPATH=/home/gustavo/workspace/install/scan_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/gustavo/workspace/build/scan_reader build --build-base /home/gustavo/workspace/build/scan_reader/build install --prefix /home/gustavo/workspace/install/scan_reader --record /home/gustavo/workspace/build/scan_reader/install.log --single-version-externally-managed

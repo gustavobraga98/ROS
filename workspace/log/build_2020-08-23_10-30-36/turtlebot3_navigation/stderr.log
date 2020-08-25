@@ -1,0 +1,5 @@
+  File "/home/gustavo/workspace/install/turtlebot3_navigation/lib/python3.8/site-packages/turtlebot3_navigation/navigation_node.py", line 20
+    print msg.ranges[0]
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(msg.ranges[0])?
+

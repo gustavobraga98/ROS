@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/PKG-INFO
+/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/SOURCES.txt
+/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/dependency_links.txt
+/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/entry_points.txt
+/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/requires.txt
+/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/top_level.txt
+/home/gustavo/workspace/build/velocity_publisher/velocity_publisher.egg-info/zip-safe
+resource/velocity_publisher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+velocity_publisher/__init__.py
+velocity_publisher/velocity_publisher.py

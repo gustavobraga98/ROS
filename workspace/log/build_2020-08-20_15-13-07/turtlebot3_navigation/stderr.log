@@ -1,0 +1,5 @@
+  File "/home/gustavo/workspace/install/turtlebot3_navigation/lib/python3.8/site-packages/turtlebot3_navigation/navigation_node.py", line 51
+    elif front < 0.3
+                   ^
+SyntaxError: invalid syntax
+
